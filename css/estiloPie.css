@@ -1,0 +1,7 @@
+/*estilo para pie de pagina*/
+footer{background-color: midnightblue;padding: 10pt; border-style: solid; margin: 2pt; padding: 10pt;}
+footer{font-weight: bold;}
+footer h4.datos {color: oldlace;}
+p#copyr{color: crimson;font-style: italic;}
+a#tel{color: rgb(20, 220, 70);font-weight: bold;}
+a#correo{color: paleturquoise;}

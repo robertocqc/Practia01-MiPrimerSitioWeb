@@ -1,0 +1,60 @@
+/*estilo para cabecera de pagina*/
+
+@font-face {
+    font-family: fuenteLoca;
+    src: url("../recursos/Fuentes/Comforter-Regular.ttf");
+}
+
+h1 {color: white; font-family:fuenteLoca;font-size: 150%;background-color: dimgrey;margin: 0px;}
+hr {border-style: double; margin: 1pt;}
+
+section.cabecera{background-color:#1d1dae; width: 99%; height: 25%; margin: 2pt;}
+
+img.logo{float: left; height: 75%;}
+a.redes{float: right; width: 50;margin: 1pt;align-items: flex-end;}
+p span {font-weight: bold;color: royalblue;}
+
+/*ESTILO  MENU NAVEGACION*/
+nav{margin: 2pt; width: 99%; background-color: #1d1dae;}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+    font-size: 70%;
+}
+  
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #726f6f3d;
+}
+
+/*PARTE CENTRAL DE LA PAGINA INICIO*/
+
+#prin_inicio{position: relative; left:2pt ; width: 98%; height: 55%; margin:0%;}
+#sub_1 img{float: right; width: 50%; height: 40%; margin: 0%;}
+#sub_1{position: absolute; top: 5pt; left: 1pt ; border-style:solid; padding: 4pt; width: 68%; height: 90%;}
+#sub_2{position:absolute; top:5pt;left: 71%  ;border-style: solid;padding: 4pt; width: 28%; height: 90%;}
+
+
+
+
+
+/*estilo para pie de pagina*/
+footer{background-color: midnightblue;padding: 10pt; border-style: solid; margin: 2pt; padding: 10pt;}
+footer{font-weight: bold;}
+footer h4.datos {color: oldlace;}
+p#copyr{color: crimson;font-style: italic;}
+a#tel{color: rgb(20, 220, 70);font-weight: bold;}
+a#correo{color: paleturquoise;}

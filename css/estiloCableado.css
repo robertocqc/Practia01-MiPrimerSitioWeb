@@ -1,0 +1,22 @@
+
+/*PARTE CENTRAL DE LA PAGINA CABLEADO ESTRUCTURADO*/
+#prin_cableado{position: relative; left:2pt ; width: 98%; height: 100%; margin:0%;}
+#prin_cableado img{width: 40%; height: 90%;}
+
+section ul li {font-size: 20pt;color: chartreuse;position:relative;left: 30%;}
+
+section li a img {width: 200pt; height: 200pt;}
+
+/*PARTE CENTRAL DE LA PAGINA COBRE*/
+#prin_cobre{position: relative; left:2pt ; width: 98%; height: 100%; margin:0%;}
+#prin_cobre img{width: 40%; height: 90%;}
+
+section ul li {font-size: 20pt;color:red ; position:relative;left: 10pt;}
+section li img {width: 200pt; height: 200pt; margin: 20pt;}
+
+/*FIBRA OPTICA*/
+#prin_fibra{position: relative; left:2pt ; width: 98%; height: 100%; margin:0%;}
+#prin_fibra img{width: 90%; height: 90%;}
+
+#prin_fibra ul li {font-size: 20pt;color:aqua; position:relative; left: 10pt;}
+#prin_fibra li img {width: 200pt; height: 200pt; margin: 20pt;}

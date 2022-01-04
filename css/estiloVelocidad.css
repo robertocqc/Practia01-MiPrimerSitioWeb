@@ -1,0 +1,20 @@
+/*FIBRA OPTICA*/
+#prin_comparativa {position: relative; left:2pt ; width: 98%; height: 55%; margin:0%;}
+
+#iz_comp #ct_comp #dr_comp {width: 29%; height: 90%; border-style: double; border: black;}
+
+#iz_comp {position:relative; left: 1%; top: 10pt;}
+#ct_comp {position:absolute; left: 25%; top: 10pt;}
+#dr_comp {position:absolute; left: 60%; top: 10pt;}
+
+
+/*borde TABLAS*/
+table, th, td {
+    border: 1px solid black;
+}
+
+/*Tabla cobre*/
+#ct_comp {background-color: palegreen; width: 30%;padding: 5pt; padding-left: 30pt; padding-bottom: 30pt;}
+
+/*Tabla fibra*/
+#dr_comp {background-color:darkslateblue  ;palegreen; width: 30%;padding: 5pt; padding-left: 30pt; padding-bottom: 30pt;}

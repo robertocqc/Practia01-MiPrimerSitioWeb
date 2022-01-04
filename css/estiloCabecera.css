@@ -1,0 +1,46 @@
+/*estilo para cabecera de pagina*/
+
+@font-face {
+    font-family: fuenteLoca;
+    src: url("../recursos/Fuentes/Comforter-Regular.ttf");
+}
+
+h1 {color: white; font-family:fuenteLoca;font-size: 150%;background-color: dimgrey;margin: 0px;}
+h1 {color: rgb(93, 218, 109);}
+hr {border-style: double; margin: 1pt;}
+
+section.cabecera{background-color:#1d1dae; width: 99%; height: 25%; margin: 2pt;}
+
+img.logo{float: left; height: 75%;}
+a.redes{float: right; width: 50;margin: 1pt;align-items: flex-end;}
+p span {font-weight: bold;color: royalblue;}
+
+/*ESTILO  MENU NAVEGACION*/
+nav{margin: 2pt; width: 99%; background-color: #1d1dae;}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+    font-size: 70%;
+}
+
+/*pone los items del menu navegacion en fila*/
+li {
+    float: left;
+}
+
+/*Color de letra y separacion de items de lista*/
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+
+/*Resalta el item seleccionado de la lista*/
+li a:hover {
+    background-color: #726f6f3d;
+}

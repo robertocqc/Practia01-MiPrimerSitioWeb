@@ -1,0 +1,10 @@
+/*FIBRA OPTICA*/
+#prin_fibra{position: relative; left:2pt ; width: 98%; height: 55%; margin:0%;}
+#iz_fibra img{float: right; width: 98%; height: 80%; margin: 0%;}
+#iz_fibra {position: absolute; top: 5pt; left: 1pt ; border-style:solid; padding: 4pt; width: 20%; height: 92%;}
+
+#dr_fibra {position:absolute; top:5pt;left: 22%  ;border-style: solid;padding: 4pt; width: 78%; height: 92%;}
+#dr_fibra img{ height: 60%; margin: 20pt;}
+
+section ul li {font-size: 20pt;color:gold ;position:relative;left: 10pt;}
+section li img {width: 200pt; height: 200pt; margin: 20pt;}
